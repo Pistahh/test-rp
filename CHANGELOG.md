@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Pistahh/test-rp/compare/v1.1.0...v2.0.0) (2024-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Translated hello back to english
+
+### Features
+
+* Translated hello back to english ([4e34252](https://github.com/Pistahh/test-rp/commit/4e34252511b34b299adf00bb842d29a61e48e1a4))
+
 ## [1.1.0](https://github.com/Pistahh/test-rp/compare/v1.0.0...v1.1.0) (2024-09-25)
 
 

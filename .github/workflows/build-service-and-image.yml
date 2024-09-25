@@ -1,0 +1,36 @@
+name: Build Service Image, push image and test
+on: push
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        lfs: true
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12.4' # Specify the Python version you need for pre-commit hooks
+    - name: Install pre-commit
+      run: pip install pre-commit
+    - name: Run pre-commit hooks
+      run: pre-commit run --all-files
+
+  build_and_publish:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+
+      - name: Build Package
+        run: sed '/^-e/d' ./requirements.lock | pip wheel -r /dev/stdin .
+
+      - name: Archive package
+        uses: actions/upload-artifact@v4
+        with:
+          name: Python package
+          path: '*.whl'

@@ -25,7 +25,6 @@ repos:
       - id: requirements-txt-fixer
       - id: check-merge-conflict
 
-
   - repo: https://github.com/compilerla/conventional-pre-commit
     rev: v3.4.0
     hooks:

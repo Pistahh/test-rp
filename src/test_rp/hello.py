@@ -1,6 +1,6 @@
 import logging
 
-from test_rp._version import version
+from test_rp.version import __version__ as version
 
 
 def hello():

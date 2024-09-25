@@ -1,6 +1,6 @@
 [project]
 name = "test-rp"
-dynamic = ["version"]
+version = "0.0.0"
 description = "Testing Release Please"
 dependencies = []
 readme = "README.md"

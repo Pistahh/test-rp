@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.1](https://github.com/Pistahh/test-rp/compare/v2.0.0...v2.0.1) (2024-09-25)
+
+
+### Bug Fixes
+
+* version handling ([f6aca57](https://github.com/Pistahh/test-rp/commit/f6aca57f5438dd2769e771a2971e67cbdbdd41cd))
+* version handling ([739a64d](https://github.com/Pistahh/test-rp/commit/739a64d5882c0138e5de8eaf265ef128804f2717))
+
 ## [2.0.0](https://github.com/Pistahh/test-rp/compare/v1.1.0...v2.0.0) (2024-09-25)
 
 

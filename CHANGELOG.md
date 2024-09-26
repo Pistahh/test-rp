@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/Pistahh/test-rp/compare/v2.0.1...v2.1.0) (2024-09-26)
+
+
+### Features
+
+* **hello:** Changed hello to hi ([da87756](https://github.com/Pistahh/test-rp/commit/da87756ddb20421add88fd193043d909d323978f))
+
 ## [2.0.1](https://github.com/Pistahh/test-rp/compare/v2.0.0...v2.0.1) (2024-09-25)
 
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/Pistahh/test-rp/compare/v2.1.0...v2.2.0) (2024-10-02)
+
+
+### Features
+
+* **main:** change msg ([527d0d7](https://github.com/Pistahh/test-rp/commit/527d0d78601a9ddfab7538d7be268b6f47142a34))
+
 ## [2.1.0](https://github.com/Pistahh/test-rp/compare/v2.0.1...v2.1.0) (2024-09-26)
 
 
